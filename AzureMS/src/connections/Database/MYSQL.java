@@ -20,7 +20,7 @@ public class MYSQL {
 
 	private static DataSource dataSource;
 	private static GenericObjectPool connectionPool;
-	private static String databaseName;
+	private static String databadseName;
 	private static int databaseMajorVersion;
 	private static int databaseMinorVersion;
 	private static String databaseProductVersion;
@@ -38,7 +38,7 @@ public class MYSQL {
 			// added
 			String jdbcUrl = "jdbc:mariadb://localhost:3306/kms_316?autoReconnect=true&characterEncoding=euckr&maxReconnects=100&CgonnectionTimeout=30000";
 			String username = "root";
-			String password = "";
+			String password = "cd159357";
 
 			// ConnectionFactory produce
 			ConnectionFactory connFactory = new DriverManagerConnectionFactory(jdbcUrl, username, password);

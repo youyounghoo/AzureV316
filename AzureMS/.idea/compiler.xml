@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AzureSrc" target="8" />
+      <module name="AzureSrc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
